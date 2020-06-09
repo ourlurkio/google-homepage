@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  padding: 8px;
+  margin: 8px;
+}
+
+.nav-links{
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0,0,0,0.85);
+  font-size: 13px;
+  margin: 8px;
+}
+
+.image-link{
+  background-image: url(http://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-position: -132px -38px;
+}
+
+.logo{
+  width: 272px;
+  height: 36px;
+  margin: 10% auto 7% auto;
+
+}
+
+.search-container{
+  width: 600px;
+  margin: 0 auto;
+  left: 0px;
+  height: 47px;
+  display: block;
+  position: relative;
+}
+
+.search{
+  border: 2px solid #d9d9d9;
+  font-size: 17px;
+  border-radius: 55px;
+  margin: 0 auto;
+  height: 44px;
+  width: 598px;
+}
+
+.search input {
+  height: 36px;
+  width: 500px;
+  border: 0px;
+  margin-top: 2px;
+  font-size: 17px;
+}
+
+.left{
+  position: absolute;
+  height: 28px;
+  top: 10px;
+  left: 10px
+}
+
+.right{
+  position: absolute;
+  height: 28px;
+  top: 10px;
+  right: 25px
+}
+
+button{
+  margin: 8px 28px;
+  height: 36px;
+  width: 172px;
+  font-size: 17px;
+  background-color: #f5f5f5;
+  color: #666;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.buttons{
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  justify-content: center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.location{
+  margin-left: 16px;
+  text-align: left;
+}
+
+.container-footer{
+  display: flex;
+  height: 30px;
+  margin-left: 8px;
+  margin-right: 8px;
+  justify-content: space-between;
+}
